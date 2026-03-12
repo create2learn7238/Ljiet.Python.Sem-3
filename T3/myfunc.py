@@ -1,0 +1,21 @@
+def mystring(a):
+    print("Len :",len(a))
+    print("Upper :",a.upper())
+    print("Lower :",a.lower())
+    print("Title :",a.title())
+    print("Capitalize :",a.capitalize())
+    print("isalpha :",a.isalpha())
+    print("isalumun :",a.isalnum())
+    print("istitle :",a.istitle())
+    print("isdigit :",a.isdigit())
+    
+def mylist(a):
+    print("Len :",len(a))
+    a.append(100)
+    print("append 2 :",a)
+    a.extend([7,8,9])
+    print("extend 789 :",a)
+    a.sort()
+    print("sort :",a)
+    a.reverse()
+    print("Reverse :",a)
