@@ -1,0 +1,9 @@
+# Download
+pip download streamlit -d streamlit_offline
+
+# Streamlit offline 
+pip install streamlit-1.52.2-py3-none-any.whl --no-index --find-links .
+
+# Run streamlit
+
+Identification of place names from a natural language sentence.
